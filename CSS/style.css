@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #9ff7ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(255, 255, 255); /* Adjust the opacity of the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box {
+    flex: 0 0 48%;
+    padding: 20px;
+}
+
+.output-box {
+    flex: 0 0 48%;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.output-box {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
